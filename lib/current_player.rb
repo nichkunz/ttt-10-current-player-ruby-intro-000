@@ -1,11 +1,8 @@
 
 def turn_count(board)
-  x_turn = "0"
-  o_turn = "0"
+  spaces = "0"
   board.each |space|
-    if space = "X"
-      x_turn += 1
-    elsif space = "O"
-      o_turn += 1
+    if space == "X" || space == "0"
+      spaces += 1
     end
 end
