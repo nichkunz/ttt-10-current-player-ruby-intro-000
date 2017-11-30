@@ -4,6 +4,6 @@ def turn_count(board)
   board.each do |space|
     if space == "X" || space == "0"
       spaces += 1
-      return spaces
     end
+  return spaces
 end
